@@ -1,0 +1,134 @@
+
+/*---------- 1. Defaults ----------*/
+* {
+		margin: 0;
+		padding: 0;
+}
+
+body {
+		background-color:#001;
+		background-image: radial-gradient(white 15%, transparent 16%),
+		radial-gradient(white 15%, transparent 16%);
+		background-size:60px 60px;
+		background-position: 0 0, 30px 30px;
+}
+/* For older version of browsers that do not support HTML5*/
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+
+/*---------- 2. Major Structure ----------*/
+#wrapper {
+	background: #ffffff;
+	border: 0.4em solid black;
+	width:100em;
+	height:50em;
+	margin:1.5em auto;
+	padding: 0;
+	text-align: left;
+}
+
+#header{
+		margin-bottom: 1em;
+		padding:0;
+		text-align:center;
+		background-color: #F2F2F2;
+}
+
+#header h1{
+	cursor: default;
+}
+
+
+#naviContainer {
+	border-top: 3px solid #888888;
+	border-bottom: 3px solid #888888;
+	padding: 10px;
+	margin-bottom: 1em;
+}
+
+#primaryContent {
+	margin-bottom: 1em;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+}
+
+.projectElement {
+	margin-bottom: 1em;
+}
+
+
+
+/*---------- 3. Links and Navigation ----------*/
+
+
+#menu {
+	text-align: center;
+}
+
+#menu li {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 25px 0 0;
+	list-style: none;
+	display: inline-block;
+}
+
+#menu li a {
+	padding: 3px 12px; 
+	color: #555;
+	line-height: 100%;
+	text-decoration: none;
+}
+
+#menu li:not(.selected) a:hover {
+	color: #000;
+	border-bottom: 2px solid #12a5fa;
+}
+
+
+#menu li.selected a {
+	
+	color: white;
+	background-color: blue;
+
+}
+
+/*---------- 4. Fonts ----------*/
+
+html {
+	font-size: 62.5%;
+}
+
+h1, h2, h3, h4, p, ul {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+	font-size: 2.8em;
+}
+
+h2 {
+	font-size: 2.0em;
+	line-height: 1.25;
+}
+
+h3 {
+	font-size: 1.8em;
+	line-height: 1.25;
+}
+
+h4 {
+	font-size: 1.5em;
+	line-height: 1.25;
+}
+
+p {
+	font-size:1.2em;
+	line-height: 1.25;
+}
